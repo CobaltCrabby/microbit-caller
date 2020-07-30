@@ -1,3 +1,7 @@
 # microbit-caller
-all .sh and .service go in pi directory
-.py file in desktop
+
+for rasberry pi
+
+Create a file in documents called Github, then create another folder in Github called microbit-caller.
+
+All files go in that microbit-caller file.
