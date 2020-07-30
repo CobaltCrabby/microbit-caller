@@ -6,7 +6,9 @@ import time
  
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("I am alive")
+        message = self.get_query_argument("message")
+        sendText(message)
+        self.write("Done.")
         
 class ComeDownHandler(tornado.web.RequestHandler):
     def get(self):
