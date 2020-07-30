@@ -4,7 +4,7 @@ After=bluetooth.target
 
 [Service]
 ExecStart=/usr/bin/python3 -u microwebserver.py
-WorkingDirectory=/home/pi/Desktop
+WorkingDirectory=/home/pi/Documents/Github/microbit-caller
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
